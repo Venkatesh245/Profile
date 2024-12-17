@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #007BFF; /* Changed background to blue */
+        }
+        .container {
+            display: flex;
+            flex-direction: column; /* Stack items vertically */
+            align-items: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .top {
+            width: 100%;
+            background-color: #0056b3; /* Darker blue for top section */
+            color: white;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .top img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 2px solid white;
+        }
+        .contact {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .contact a {
+            color: white;
+            text-decoration: none;
+            margin: 5px;
+            font-size: 18px;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        .bottom {
+            width: 100%;
+            background-color: white;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #0056b3; /* Border matches blue theme */
+            display: inline-block;
+            padding-bottom: 5px;
+            color: #0056b3; /* Heading color updated */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Top Section -->
+        <div class="top">
+            <img src="profile.jpg" alt="Profile Picture">
+            <div class="contact">
+                <h3>Contact Details</h3>
+                <a href="mailto: venkateshravi2004@gmail.com" title="Email">
+                    &#9993; Email
+                </a>
+                <a href="tel:+918220865626" title="Phone">
+                    &#9742; Phone
+                </a>
+                <a href="https://maps.google.com/?q=Kumbakonam, Thanjavur " target="_blank" title="Address">
+                    &#127969; Address
+                </a>
+            </div>
+        </div>
+
+        <!-- Bottom Section -->
+        <div class="bottom">
+            <div class="section">
+                <h2>About</h2>
+                <p>Hello! I'm Venkatesh, a web developer with a passion for creating clean, responsive, and user-friendly websites.</p>
+            </div>
+            <div class="section">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React.js</li>
+                    <li>MySQL</li>
+                    <li>Git/GitHub</li>
+                </ul>
+            </div>
+            <div class="section">
+                <h2>Hobbies</h2>
+                <p>Listening to music, exploring new technologies, and reading books.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
